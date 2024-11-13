@@ -1807,12 +1807,6 @@ uis.InputBegan:Connect(function(key)
 	end
 end)
 
-game.StarterGui:SetCore("SendNotification",{
-    Title = styleToChangeTo.." style loaded!";
-    Text = styleToChangeTo.." style has replaced "..styleToChange..".";
-    Button1 = "OK!";
-})
-
 task.wait(1)
 sendNotification("Press [G] to instantly fill heat.")
 
