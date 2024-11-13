@@ -2074,7 +2074,7 @@ if game.ReplicatedStorage.Styles.Brawler:FindFirstChild("VisualName") then
 else
 	v = Instance.new("StringValue", game.ReplicatedStorage.Styles.Brawler)
 end
-v.Value = 'Noob x Pot'
+v.Value = 'Prakamya Sensei'
 v.Name = "VisualName"
 if game.ReplicatedStorage.Styles.Brawler:FindFirstChild("H_GunStanding") then
 	v = game.ReplicatedStorage.Styles.Brawler["H_GunStanding"]
