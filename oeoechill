@@ -1862,7 +1862,7 @@ else
 	v = Instance.new("Animation", game.ReplicatedStorage.Styles.Brawler)
 end
 
-v.AnimationId = "rbxassetid://12051772055"
+v.AnimationId = "rbxassetid://12120045620"
 v.Name = "Idle"
 if game.ReplicatedStorage.Styles.Brawler.Idle:FindFirstChild("Core") then
 	v = game.ReplicatedStorage.Styles.Brawler.Idle["Core"]
